@@ -1,1 +1,2 @@
-None of the files here are original unless stated oterwise. Credit is given where relevant. Files are generally from youtube or other tutorials.
+I do not claim any of this as original work - I follow along tutorials, notes, books, etc. and credit where relevant. I do type my own code (no copy + pasting) and create my own notes.
+
