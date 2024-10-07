@@ -1,0 +1,35 @@
+1.LOADING THE DATASET
+
+1.2 GENERAL
+> library(Datasets)
+> data(iris) - this creates an object in the environment called 'iris'.
+
+2.SUMMARY STATISTICS
+
+2.1. GENERAL:
+> typing iris shows the information on the console
+> typing view(iris) shows the information as an easy to read table
+
+2.2. HEAD AND TAIL
+> typing head(iris, 4) shows the first 4 rows of the dataset
+> typing tail(iris, 4) shows the last 4 rows of the dataset
+
+2.3 SUMMARY()
+> summary(iris) will show a statistical summary of the dataset - displaying 
+the minimum, maximum, median, etc.
+> summary(iris$sepal.length) shows a summary of only the sepal length. The $ defines
+which category.
+> sum(is.na(iris)) asks R if there are any null values, it returns 0 in this case meaning
+there are none. It is important for data cleaning to remove any null values, duplicates,
+irrelevant data, etc.
+
+2.4 SKIMR
+> Skimr provides more useful tools for data summary - skimr(iris) shows summary information
+about the dataset. 
+
+2.5 Group_by
+> use dplyr:: to group by
+> dplyr is a part of the tidyverse package and helps with dataframe manipulation.
+> group_by splits a data frame into a group - useful with variables - this helps
+when there is specific data worth looking at in depth
+
